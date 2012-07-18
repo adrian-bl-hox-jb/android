@@ -295,7 +295,6 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
-  <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
@@ -313,4 +312,5 @@
   <project path="hardware/ril" name="tg-endeavoru-jellybean/android_hardware_ril" remote="github" revision="jb" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="jellybean" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="ics" />
+  <project path="system/extras" name="tg-endeavoru-jellybean/android_system_extras" remote="github" revision="jb" />
 </manifest>
