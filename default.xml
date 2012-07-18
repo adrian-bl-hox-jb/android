@@ -311,6 +311,5 @@
   <project path="frameworks/base" name="tg-endeavoru-jellybean/android_frameworks_base" remote="github" revision="jb" />
   <project path="frameworks/av" name="tg-endeavoru-jellybean/android_frameworks_av" remote="github" revision="jb" />
   <project path="hardware/ril" name="tg-endeavoru-jellybean/android_hardware_ril" remote="github" revision="jb" />
-  <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="jellybean" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="ics" />
 </manifest>
