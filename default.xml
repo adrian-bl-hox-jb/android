@@ -313,4 +313,5 @@
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="jellybean" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="ics" />
   <project path="system/extras" name="tg-endeavoru-jellybean/android_system_extras" remote="github" revision="jb" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="jellybean" />
 </manifest>
