@@ -314,4 +314,6 @@
   <project path="system/extras" name="tg-endeavoru-jellybean/android_system_extras" remote="github" revision="jb" />
   <project path="system/core" name="tg-endeavoru-jellybean/android_system_core" remote="github" revision="jb" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="jellybean" />
+  <project path="external/polly" name="adrian-bl/android_pollyd" remote="github" revision="master" />
+  <project path="packages/apps/Polly" name="adrian-bl/android_jpolly" remote="github" revision="master" />
 </manifest>
