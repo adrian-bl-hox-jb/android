@@ -232,7 +232,6 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
@@ -316,4 +315,5 @@
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="jellybean" />
   <project path="external/polly" name="adrian-bl/android_pollyd" remote="github" revision="master" />
   <project path="packages/apps/Polly" name="adrian-bl/android_jpolly" remote="github" revision="master" />
+  <project path="packages/apps/Phone" name="tg-endeavoru-jellybean/android_packages_apps_Phone" remote="github" revision="jb" />
 </manifest>
