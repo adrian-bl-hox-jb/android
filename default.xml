@@ -17,7 +17,6 @@
   <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
@@ -278,6 +277,7 @@
   <project path="system/security" name="platform/system/security" />
 
   <!-- Begin tg_jellybean's repos -->
+  <project path="bootable/recovery" name="tg-endeavoru-jellybean/android_bootable_recovery" remote="github" revision="jellybean" />
   <project path="external/wpa_supplicant_8" name="tg-endeavoru-jellybean/android_external_wpa_supplicant_8" remote="github" revision="jb" />
   <project path="system/vold" name="tg-endeavoru-jellybean/android_system_vold" remote="github" revision="jb"/>
   <project path="hardware/libhardware_legacy" name="tg-endeavoru-jellybean/android_hardware_libhardware_legacy" remote="github" revision="jb"/>
