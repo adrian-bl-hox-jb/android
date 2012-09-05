@@ -79,7 +79,6 @@
   <project path="external/icu4c" name="platform/external/icu4c" />
   <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
-  <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/javasqlite" name="platform/external/javasqlite" />
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jdiff" name="platform/external/jdiff" />
@@ -301,4 +300,5 @@
   <project path="external/polly" name="adrian-bl/android_pollyd" remote="github" revision="master" />
   <project path="packages/apps/Polly" name="adrian-bl/android_jpolly" remote="github" revision="master" />
   <project path="packages/apps/Phone" name="tg-endeavoru-jellybean/android_packages_apps_Phone" remote="github" revision="jb" />
+  <project path="external/iptables" name="tg-endeavoru-jellybean/android_external_iptables" remote="github" revision="master" />
 </manifest>
