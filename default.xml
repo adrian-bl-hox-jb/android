@@ -228,7 +228,6 @@
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
@@ -298,6 +297,7 @@
   <project path="packages/apps/Gallery2" name="tg-endeavoru-jellybean/android_packages_apps_Gallery2" remote="github" revision="jb" />
   <project path="packages/apps/Polly" name="adrian-bl/android_jpolly" remote="github" revision="master" />
   <project path="packages/apps/Phone" name="tg-endeavoru-jellybean/android_packages_apps_Phone" remote="github" revision="jb" />
+  <project path="packages/inputmethods/PinyinIME" name="tg-endeavoru-jellybean/android_packages_inputmethods_PinyinIME" remote="github" revision="jb"/>
   <project path="device/htc/endeavoru" name="tg-endeavoru-jellybean/android_device_htc_endeavoru" remote="github" revision="jb"/>
   <project path="kernel/htc/endeavoru" name="tg-endeavoru-jellybean/android_kernel_htc_endeavoru" remote="github" revision="master"/>
   <project path="vendor/htc/endeavoru" name="tg-endeavoru-jellybean/android_vendor_htc_endeavoru" remote="github" revision="jb"/>
