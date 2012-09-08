@@ -284,6 +284,7 @@
   <project path="hardware/libhardware" name="tg-endeavoru-jellybean/android_hardware_libhardware" remote="github" revision="jb"/>
   <project path="vendor/tg" name="tg-endeavoru-jellybean/android_vendor_tg" remote="github" revision="jb"/>
   <project path="device/htc/endeavoru" name="tg-endeavoru-jellybean/android_device_htc_endeavoru" remote="github" revision="jb"/>
+  <project path="kernel/htc/endeavoru" name="tg-endeavoru-jellybean/android_kernel_htc_endeavoru" remote="github" revision="master"/>
   <project path="vendor/htc/endeavoru" name="tg-endeavoru-jellybean/android_vendor_htc_endeavoru" remote="github" revision="jb"/>
   <project path="hardware/ti/wlan" name="tg-endeavoru-jellybean/android_hardware_ti_wlan" remote="github" revision="jb" />
   <project path="frameworks/base" name="tg-endeavoru-jellybean/android_frameworks_base" remote="github" revision="jb" />
