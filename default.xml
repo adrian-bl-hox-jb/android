@@ -302,4 +302,5 @@
   <project path="kernel/htc/endeavoru" name="tg-endeavoru-jellybean/android_kernel_htc_endeavoru" remote="github" revision="master"/>
   <project path="vendor/htc/endeavoru" name="tg-endeavoru-jellybean/android_vendor_htc_endeavoru" remote="github" revision="jb"/>
   <project path="vendor/tg" name="tg-endeavoru-jellybean/android_vendor_tg" remote="github" revision="jb"/>
+  <project path="android" name="tg-endeavoru-jellybean/android" remote="github" revision="master"/>
 </manifest>
