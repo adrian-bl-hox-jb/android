@@ -2,11 +2,19 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-4.2_r1"
            remote="aosp"
            sync-j="4" />
+
+  <remote  name="github"
+           fetch="git://github.com/" />
+
+  <project path="build" name="adrian-bl-hox-jb/android_build"  remote="github" revision="jb" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
 
   <project path="build" name="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -327,5 +335,11 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
+
+
+  <!-- Begin custom repos //-->
+  <project path="packages/apps/Polly" name="adrian-bl/android_jpolly" remote="github" revision="master" />
+  <project path="external/polly" name="adrian-bl/android_pollyd" remote="github" revision="master" />
+  <project path="android" name="adrian-bl-hox-jb/android" remote="github" revision="master"/>
 
 </manifest>
