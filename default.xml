@@ -329,7 +329,7 @@
   <project path="system/media" name="platform/system/media" />
   <!-- <project path="system/netd" name="platform/system/netd" /> //-->
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="platform/system/vold" />
+  <!-- <project path="system/vold" name="platform/system/vold" /> //-->
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
@@ -356,15 +356,14 @@
   <project path="hardware/libhardware_legacy" name="adrian-bl-hox-jb/android_hardware_libhardware_legacy" remote="github" revision="jb42"/>
   <project path="hardware/libhardware" name="adrian-bl-hox-jb/android_hardware_libhardware" remote="github" revision="jb42"/>
   <project path="frameworks/av" name="adrian-bl-hox-jb/android_frameworks_av" remote="github" revision="jb42" />
+  <project path="system/vold" name="adrian-bl-hox-jb/android_system_vold" remote="github" revision="jb"/>
 
 
 
 
 
 
-<!-- in sync
-  <project path="test/system/vold" name="tg-endeavoru-jellybean/android_system_vold" remote="github" revision="jb"/>
-//-->
+
 <!-- insync
   <project path="test/system/extras" name="tg-endeavoru-jellybean/android_system_extras" remote="github" revision="jb" />
 //-->
