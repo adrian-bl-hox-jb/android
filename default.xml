@@ -200,7 +200,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="platform/frameworks/av" />
+  <!-- <project path="frameworks/av" name="platform/frameworks/av" /> //-->
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
@@ -227,8 +227,8 @@
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
+  <!-- <project path="hardware/libhardware" name="platform/hardware/libhardware" /> //-->
+  <!-- <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" /> //-->
   <!-- <project path="hardware/ril" name="platform/hardware/ril" /> //-->
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
@@ -353,6 +353,11 @@
   <project path="hardware/ti/wlan" name="tg-endeavoru-jellybean/android_hardware_ti_wlan" remote="github" revision="jb" />
   <project path="external/wpa_supplicant_8" name="tg-endeavoru-jellybean/android_external_wpa_supplicant_8" remote="github" revision="jb" />
 
+  <project path="hardware/libhardware_legacy" name="adrian-bl-hox-jb/android_hardware_libhardware_legacy" remote="github" revision="jb42"/>
+  <project path="hardware/libhardware" name="adrian-bl-hox-jb/android_hardware_libhardware" remote="github" revision="jb42"/>
+  <project path="frameworks/av" name="adrian-bl-hox-jb/android_frameworks_av" remote="github" revision="jb42" />
+
+
 
 
 
@@ -370,10 +375,7 @@
 <!--
   <project path="test/external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="jellybean" />
   <project path="test/system/su" name="CyanogenMod/android_system_su" remote="github" revision="jellybean" />
-  <project path="test/hardware/libhardware_legacy" name="tg-endeavoru-jellybean/android_hardware_libhardware_legacy" remote="github" revision="jb"/>
-  <project path="test/hardware/libhardware" name="tg-endeavoru-jellybean/android_hardware_libhardware" remote="github" revision="jb"/>
   <project path="test/frameworks/base" name="tg-endeavoru-jellybean/android_frameworks_base" remote="github" revision="jb" />
-  <project path="test/frameworks/av" name="tg-endeavoru-jellybean/android_frameworks_av" remote="github" revision="jb" />
   <project path="test/frameworks/native" name="tg-endeavoru-jellybean/android_frameworks_native" remote="github" revision="jb" />
   <project path="test/packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="ics" />
   <project path="test/packages/apps/Camera" name="tg-endeavoru-jellybean/android_packages_apps_Camera" remote="github" revision="jb" />
