@@ -201,7 +201,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <!-- <project path="frameworks/av" name="platform/frameworks/av" /> //-->
-  <project path="frameworks/base" name="platform/frameworks/base" />
+  <!-- <project path="frameworks/base" name="platform/frameworks/base" /> -->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -341,6 +341,9 @@
 
 
   <project path="frameworks/opt/telephony" name="adrian-bl-hox-jb/android_frameworks_opt_telephony" remote="github" revision="jb42"/>
+  <project path="frameworks/av" name="adrian-bl-hox-jb/android_frameworks_av" remote="github" revision="jb42" />
+  <project path="frameworks/base" name="adrian-bl-hox-jb/android_frameworks_base" remote="github" revision="jb42" />
+
   <project path="hardware/ril" name="adrian-bl-hox-jb/android_hardware_ril" remote="github" revision="jb" />
   <project path="device/htc/endeavoru" name="adrian-bl-hox-jb/android_device_htc_endeavoru" remote="github" revision="jb"/>
   <project path="kernel/htc/endeavoru" name="tg-endeavoru-jellybean/android_kernel_htc_endeavoru" remote="github" revision="master"/>
@@ -351,7 +354,6 @@
 
   <project path="hardware/libhardware_legacy" name="adrian-bl-hox-jb/android_hardware_libhardware_legacy" remote="github" revision="jb42"/>
   <project path="hardware/libhardware" name="adrian-bl-hox-jb/android_hardware_libhardware" remote="github" revision="jb42"/>
-  <project path="frameworks/av" name="adrian-bl-hox-jb/android_frameworks_av" remote="github" revision="jb42" />
   <project path="system/vold" name="adrian-bl-hox-jb/android_system_vold" remote="github" revision="jb"/>
 
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="mr1-staging" />
@@ -371,7 +373,6 @@
 
 <!--
   <project path="test/system/su" name="CyanogenMod/android_system_su" remote="github" revision="jellybean" />
-  <project path="test/frameworks/base" name="tg-endeavoru-jellybean/android_frameworks_base" remote="github" revision="jb" />
   <project path="test/frameworks/native" name="tg-endeavoru-jellybean/android_frameworks_native" remote="github" revision="jb" />
   <project path="test/packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="ics" />
   <project path="test/packages/apps/Camera" name="tg-endeavoru-jellybean/android_packages_apps_Camera" remote="github" revision="jb" />
