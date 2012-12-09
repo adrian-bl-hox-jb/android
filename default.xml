@@ -337,6 +337,7 @@
   <!-- Begin tg_jellybean's repos -->
   <project path="system/core" name="adrian-bl-hox-jb/android_system_core" remote="github" revision="jb42" />
   <project path="external/polly" name="adrian-bl/android_pollyd" remote="github" revision="master" />
+  <project path="external/android_hox_tools" name="adrian-bl-hox-jb/android_hox_tools" remote="github" revision="master" />
   <project path="packages/apps/Polly" name="adrian-bl/android_jpolly" remote="github" revision="master" />
   <project path="packages/apps/DeskClock" name="adrian-bl-hox-jb/android_packages_apps_DeskClock" remote="github" revision="jb42" />
 
