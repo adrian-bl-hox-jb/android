@@ -243,7 +243,7 @@
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
+  <!-- <project path="packages/apps/Camera" name="platform/packages/apps/Camera" /> //-->
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
@@ -340,6 +340,8 @@
   <project path="external/hox_tools" name="adrian-bl-hox-jb/android_hox_tools" remote="github" revision="master" />
   <project path="packages/apps/Polly" name="adrian-bl/android_jpolly" remote="github" revision="master" />
   <project path="packages/apps/DeskClock" name="adrian-bl-hox-jb/android_packages_apps_DeskClock" remote="github" revision="jb42" />
+  <project path="packages/apps/Camera" name="adrian-bl-hox-jb/android_packages_apps_Camera" remote="github" revision="jb42" />
+
 
   <project path="frameworks/opt/telephony" name="adrian-bl-hox-jb/android_frameworks_opt_telephony" remote="github" revision="jb42"/>
   <project path="frameworks/av" name="adrian-bl-hox-jb/android_frameworks_av" remote="github" revision="jb42" />
@@ -375,7 +377,6 @@
   <project path="test/system/su" name="CyanogenMod/android_system_su" remote="github" revision="jellybean" />
   <project path="test/frameworks/native" name="tg-endeavoru-jellybean/android_frameworks_native" remote="github" revision="jb" />
   <project path="test/packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="ics" />
-  <project path="test/packages/apps/Camera" name="tg-endeavoru-jellybean/android_packages_apps_Camera" remote="github" revision="jb" />
   <project path="test/packages/apps/Gallery2" name="tg-endeavoru-jellybean/android_packages_apps_Gallery2" remote="github" revision="jb" />
   <project path="test/packages/inputmethods/PinyinIME" name="tg-endeavoru-jellybean/android_packages_inputmethods_PinyinIME" remote="github" revision="jb"/>
 
