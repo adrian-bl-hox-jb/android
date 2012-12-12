@@ -265,7 +265,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <!-- <project path="packages/apps/Settings" name="platform/packages/apps/Settings" /> //-->
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -341,6 +341,7 @@
   <project path="packages/apps/Polly" name="adrian-bl/android_jpolly" remote="github" revision="master" />
   <project path="packages/apps/DeskClock" name="adrian-bl-hox-jb/android_packages_apps_DeskClock" remote="github" revision="jb42" />
   <project path="packages/apps/Camera" name="adrian-bl-hox-jb/android_packages_apps_Camera" remote="github" revision="jb42" />
+  <project path="packages/apps/Settings" name="adrian-bl-hox-jb/android_packages_apps_Settings" remote="github" revision="jb42" />
 
 
   <project path="frameworks/opt/telephony" name="adrian-bl-hox-jb/android_frameworks_opt_telephony" remote="github" revision="jb42"/>
