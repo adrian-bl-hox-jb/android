@@ -194,7 +194,7 @@
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
+  <!-- <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" /> //-->
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
@@ -327,7 +327,7 @@
   <!-- <project path="system/core" name="platform/system/core" /> //-->
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="platform/system/netd" />
+  <!-- <project path="system/netd" name="platform/system/netd" /> //-->
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
@@ -335,9 +335,11 @@
 
 
   <!-- Begin tg_jellybean's repos -->
+  <project path="system/netd" name="adrian-bl-hox-jb/android_system_netd" remote="github" revision="jb42" />
   <project path="system/core" name="adrian-bl-hox-jb/android_system_core" remote="github" revision="jb42" />
   <project path="external/polly" name="adrian-bl/android_pollyd" remote="github" revision="master" />
   <project path="external/hox_tools" name="adrian-bl-hox-jb/android_hox_tools" remote="github" revision="master" />
+  <project path="external/wpa_supplicant_8" name="adrian-bl-hox-jb/android_external_wpa_supplicant_8" remote="github" revision="jb42" />
   <project path="packages/apps/Polly" name="adrian-bl/android_jpolly" remote="github" revision="master" />
   <project path="packages/apps/DeskClock" name="adrian-bl-hox-jb/android_packages_apps_DeskClock" remote="github" revision="jb42" />
   <project path="packages/apps/Camera" name="adrian-bl-hox-jb/android_packages_apps_Camera" remote="github" revision="jb42" />
@@ -351,35 +353,15 @@
 
   <project path="hardware/ril" name="adrian-bl-hox-jb/android_hardware_ril" remote="github" revision="jb" />
   <project path="device/htc/endeavoru" name="adrian-bl-hox-jb/android_device_htc_endeavoru" remote="github" revision="jb"/>
-  <project path="kernel/htc/endeavoru" name="tg-endeavoru-jellybean/android_kernel_htc_endeavoru" remote="github" revision="master"/>
   <project path="vendor/htc/endeavoru" name="adrian-bl-hox-jb/android_vendor_htc_endeavoru" remote="github" revision="jb"/>
   <project path="vendor/tg" name="adrian-bl-hox-jb/android_vendor_tg" remote="github" revision="jb"/>
   <project path="android" name="adrian-bl-hox-jb/android" remote="github" revision="master"/>
-  <project path="hardware/ti/wlan" name="tg-endeavoru-jellybean/android_hardware_ti_wlan" remote="github" revision="jb" />
   <project path="hardware/libhardware_legacy" name="adrian-bl-hox-jb/android_hardware_libhardware_legacy" remote="github" revision="jb42"/>
   <project path="hardware/libhardware" name="adrian-bl-hox-jb/android_hardware_libhardware" remote="github" revision="jb42"/>
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-10.1" />
 
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="mr1-staging" />
-
-
-
-
+<!--  <project path="kernel/htc/endeavoru" name="tg-endeavoru-jellybean/android_kernel_htc_endeavoru" remote="github" revision="master"/> //-->
+<!--  <project path="hardware/ti/wlan" name="tg-endeavoru-jellybean/android_hardware_ti_wlan" remote="github" revision="jb" /> //-->
 
 
-
-<!-- insync
-  <project path="test/system/extras" name="tg-endeavoru-jellybean/android_system_extras" remote="github" revision="jb" />
-//-->
-<!-- camfixes 
-  <project path="test/system/core" name="tg-endeavoru-jellybean/android_system_core" remote="github" revision="jb" />
-//-->
-
-<!--
-  <project path="test/system/su" name="CyanogenMod/android_system_su" remote="github" revision="jellybean" />
-  <project path="test/frameworks/native" name="tg-endeavoru-jellybean/android_frameworks_native" remote="github" revision="jb" />
-  <project path="test/packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="ics" />
-  <project path="test/packages/apps/Gallery2" name="tg-endeavoru-jellybean/android_packages_apps_Gallery2" remote="github" revision="jb" />
-  <project path="test/packages/inputmethods/PinyinIME" name="tg-endeavoru-jellybean/android_packages_inputmethods_PinyinIME" remote="github" revision="jb"/>
-
--->
 </manifest>
