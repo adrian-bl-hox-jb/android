@@ -233,7 +233,7 @@
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
+  <!-- <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" /> //-->
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
@@ -351,6 +351,7 @@
   <project path="frameworks/base" name="adrian-bl-hox-jb/android_frameworks_base" remote="github" revision="jb42" />
   <project path="frameworks/native" name="adrian-bl-hox-jb/android_frameworks_native" remote="github" revision="jb42" />
 
+  <project path="hardware/ti/wlan" name="adrian-bl-hox-jb/android_hardware_ti_wlan" remote="github" revision="jb" />
   <project path="hardware/ril" name="adrian-bl-hox-jb/android_hardware_ril" remote="github" revision="jb" />
   <project path="device/htc/endeavoru" name="adrian-bl-hox-jb/android_device_htc_endeavoru" remote="github" revision="jb"/>
   <project path="vendor/htc/endeavoru" name="adrian-bl-hox-jb/android_vendor_htc_endeavoru" remote="github" revision="jb"/>
