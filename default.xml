@@ -227,7 +227,7 @@
   <!-- <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" /> //-->
   <!-- <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" /> //-->
   <!-- <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" /> //-->
-  <project path="libcore" name="platform/libcore" />
+  <!-- <project path="libcore" name="platform/libcore" /> //-->
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -344,6 +344,7 @@
   <project path="frameworks/av" name="adrian-bl-hox-jb/android_frameworks_av" remote="github" revision="jb42" />
   <project path="frameworks/base" name="adrian-bl-hox-jb/android_frameworks_base" remote="github" revision="jb42" />
   <project path="frameworks/native" name="adrian-bl-hox-jb/android_frameworks_native" remote="github" revision="jb42" />
+  <project path="libcore" name="adrian-bl-hox-jb/android_libcore" remote="github" revision="jb42" />
 
   <project path="hardware/ti/wlan" name="adrian-bl-hox-jb/android_hardware_ti_wlan" remote="github" revision="jb" />
   <project path="hardware/ril" name="adrian-bl-hox-jb/android_hardware_ril" remote="github" revision="jb" />
